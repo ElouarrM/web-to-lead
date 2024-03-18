@@ -1,0 +1,35 @@
+.web-to-lead-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.web-to-lead-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.web-to-lead-form label {
+    margin-bottom: 5px;
+}
+
+.web-to-lead-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.web-to-lead-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.web-to-lead-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
